@@ -1,0 +1,23 @@
+---
+### BUILD CONFIGURATION
+from: markdown
+input-file:
+  - content.md
+metadata-file: metadata.yaml
+verbosity: WARNING
+fail-if-warnings: true
+#filters:
+#  - /home/ntpt/Templates/pandoc_markdown/include-code-files.lua
+
+### INCLUDES
+#include-in-header:
+#include-before-body:
+#include-after-body:
+resource-path:
+  - .
+
+### OPTION FOR GENERAL WRITER
+highlight-style: tango
+
+### OPTION FOR SPECIFIC WRITER
+#listings: true

@@ -1,0 +1,6 @@
+# remove all hidden file and folder
+.*
+!/.gitignore
+
+# Ignore the folder containing lab instruction pdf file
+Instruction/
