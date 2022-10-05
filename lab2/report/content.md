@@ -51,7 +51,7 @@ void vDetectButtonPressAndPrint(void *pvParameters)
             diffCount = 0;
             lastState = currentState;
             if (currentState == 0)
-            printf("ESP32\n");
+                printf("ESP32\n");
         }
 
         vTaskDelay(10 / portTICK_PERIOD_MS);
