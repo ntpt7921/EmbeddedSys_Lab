@@ -127,7 +127,24 @@ This mean that before `app_main` is entered, the scheduler has already been star
 
 # Images
 
-<!-- Images will be added here for the completed project -->
+We have two figure depicting the implemetation and operation of the project.
+
 ![The terminal result printout when pressing the button several times](img/terminal_output.png)
 
 ![The Wemos D1 R32 board wired up with a button on the breadboard, the button will pull pin IO12 to low when pressed](img/breadboard_wireup.jpg)
+
+# Contributions and Github
+
+: Contribution table
+
++-------------------------------+-----------------------+
+| Name                          | Percent Contribution  |
++===============================+=======================+
+| Nguyến Trần Phước Thành       | 50%                   |
+|                               |                       |
++-------------------------------+-----------------------+
+| Phan Thanh Hoan               | 50%                   |
+|                               |                       |
++-------------------------------+-----------------------+
+
+Github Links: [https://github.com/ntpt7921/EmbeddedSys_Lab](https://github.com/ntpt7921/EmbeddedSys_Lab)
