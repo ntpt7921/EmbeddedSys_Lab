@@ -128,3 +128,6 @@ This mean that before `app_main` is entered, the scheduler has already been star
 # Images
 
 <!-- Images will be added here for the completed project -->
+![The terminal result printout when pressing the button several times](img/terminal_output.png)
+
+![The Wemos D1 R32 board wired up with a button on the breadboard, the button will pull pin IO12 to low when pressed](img/breadboard_wireup.jpg)
