@@ -45,6 +45,8 @@ void vDetectButtonPressAndPrint(void *pvParameters)
         currentState = gpio_get_level(GPIO_BUTTON);
         if (currentState != lastState)
             diffCount++;
+        else
+            diffCount = 0;
 
         if (diffCount >= 5)
         {
