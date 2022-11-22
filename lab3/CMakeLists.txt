@@ -6,3 +6,5 @@ cmake_minimum_required(VERSION 3.16)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(main)
+# make cmake output the compilation database
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)

@@ -10,3 +10,6 @@
 # and is used for all the built file
 # the project can be initialized without this folder
 build/
+
+# compile command for clangd
+compile_commands.json

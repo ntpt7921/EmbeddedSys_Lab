@@ -73,7 +73,7 @@ void vTestTask(void *param)
             __asm__ ("NOP"); // nop - do nothing
         }
         printf("Ultilization: %f%%\n", ultilization);
-        vTaskDelay(3);
+        vTaskDelay(3); // change this to see change in utilization
     }
 
     vTaskDelete(NULL);

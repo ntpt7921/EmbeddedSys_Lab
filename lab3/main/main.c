@@ -8,8 +8,8 @@
 
 // choosing one option and define that, undef the other
 // don't forget changing option in FreeRTOSConfig.h
-#define POLICY_PREEMPTIVE
-#undef POLICY_COOPERATIVE
+#undef POLICY_PREEMPTIVE
+#define POLICY_COOPERATIVE
 
 #define GPIO_BUTTON GPIO_NUM_12
 #define SHORT_TASK_LOOPS_COUNT 2000000u
