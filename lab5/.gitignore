@@ -1,0 +1,16 @@
+# beside the core/, sdkconfig, and CMakeLists.txt
+# any other file can be generate from those config and source file
+# so they will not be included
+
+# remove all hidden file and folder
+.*
+!/.gitignore
+
+# build is created after idf.py set-target esp32
+# and is used for all the built file
+# the project can be initialized without this folder
+build/
+
+# compile command for clangd
+compile_commands.json
+tags
