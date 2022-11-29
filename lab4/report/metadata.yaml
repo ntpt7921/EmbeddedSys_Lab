@@ -1,0 +1,26 @@
+---
+### METADATA
+title: Lab04 Report
+subtitle: Embedded Systems (CO3054)
+description: Lab report for embedded systems course
+author:
+- Nguyễn Trần Phước Thành - 1912059
+- Phan Thanh Hoan - 1913406
+date: This will be automated
+subject: Embedded Systems
+
+### DOCUMENT CONFIGURATION
+documentclass: article
+classoption:
+  - a4paper
+  - titlepage
+geometry:
+  - margin=1in
+numbersections: true
+colorlinks: true
+
+### FRONT MATTERS
+toc: true
+toc-depth: 2
+lof: false
+lot: false
